@@ -1,0 +1,20 @@
+Project Overview
+This repository contains an end to end Power BI project analyzing the sales performance and customer distribution of a cookie company. The project transforms raw Excel data into an interactive dashboard to track revenue growth, shipping trends, and market share across different countries.
+
+🛠️ Tech Stack & Skills
+Tool: Power BI Desktop.
+
+ETL/Preprocessing: Power Query (Data cleaning, type conversion, and standardizing country names).
+
+Data Modeling: Established a Star Schema by creating relationships between Customer and Order tables via Customer ID.
+
+Visualization: clustered Bar chart, Line Charts, Donut Charts, and Interactive Slicers.
+
+📊 Key Features
+Revenue Performance: A high-level KPI card showing total revenue (currently at $513.98K).
+
+Growth Trends: A line chart tracking the "Sum of Cookies Shipped" showing a significant upward trend between 2024 and 2025.
+
+Market Segmentation: A donut chart visualizing revenue distribution across the United States, UK, Germany, and Canada.
+
+Customer Analytics: A ranked bar chart showing the "Sum of Revenue by Customer Name" to identify top-tier clients.
